@@ -20,10 +20,10 @@ body, html {
 /*					*/
 
 .image-span.a {
-	background-image: url('../assets/gif-font/eiji/a.gif');
+	background-image: url('../assets/gif-font/eiji/a.gif?rand=<?=rand(1,1000);?');
 }
 .image-span.b {
-	background-image: url('../assets/gif-font/eiji/b.gif');
+	background-image: url('../assets/gif-font/eiji/b.gif?rand=<?=rand(1,1000);?');
 }
 .image-span.c {
 	background-image: url('../assets/gif-font/pink-letters/c.gif');
