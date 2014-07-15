@@ -1,0 +1,154 @@
+body, html {
+	font-size: 20px !important;
+}
+
+.image-span {
+	border: none;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 40px 40px;
+	left: 0;
+	display: block;
+	-webkit-animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;
+    animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;
+	box-sizing: border-box;
+}
+
+
+/*					*/
+/* ALPHABET LETTERS */
+/*					*/
+
+.image-span.a {
+	background-image: url('../assets/gif-font/pink-letters/a.gif');
+}
+.image-span.b {
+	background-image: url('../assets/gif-font/pink-letters/b.gif');
+}
+.image-span.c {
+	background-image: url('../assets/gif-font/pink-letters/c.gif');
+}
+.image-span.d {
+	background-image: url('../assets/gif-font/pink-letters/d.gif');
+}
+.image-span.e {
+	background-image: url('../assets/gif-font/pink-letters/e.gif');
+}
+.image-span.f {
+	background-image: url('../assets/gif-font/pink-letters/f.gif');
+}
+.image-span.g {
+	background-image: url('../assets/gif-font/pink-letters/g.gif');
+}
+.image-span.h {
+	background-image: url('../assets/gif-font/pink-letters/h.gif');
+}
+.image-span.i {
+	background-image: url('../assets/gif-font/pink-letters/i.gif');
+}
+.image-span.j {
+	background-image: url('../assets/gif-font/pink-letters/j.gif');
+}
+.image-span.k {
+	background-image: url('../assets/gif-font/pink-letters/k.gif');
+}
+.image-span.l {
+	background-image: url('../assets/gif-font/pink-letters/l.gif');
+}
+.image-span.m {
+	background-image: url('../assets/gif-font/pink-letters/m.gif');
+}
+.image-span.n {
+	background-image: url('../assets/gif-font/pink-letters/n.gif');
+}
+.image-span.o {
+	background-image: url('../assets/gif-font/pink-letters/o.gif');
+}
+.image-span.p {
+	background-image: url('../assets/gif-font/pink-letters/p.gif');
+}
+.image-span.q {
+	background-image: url('../assets/gif-font/pink-letters/q.gif');
+}
+.image-span.r {
+	background-image: url('../assets/gif-font/pink-letters/r.gif');
+}
+.image-span.s {
+	background-image: url('../assets/gif-font/pink-letters/s.gif');
+}
+.image-span.t {
+	background-image: url('../assets/gif-font/pink-letters/t.gif');
+}
+.image-span.u {
+	background-image: url('../assets/gif-font/pink-letters/u.gif');
+}
+.image-span.v {
+	background-image: url('../assets/gif-font/pink-letters/v.gif');
+}
+.image-span.w {
+	background-image: url('../assets/gif-font/pink-letters/w.gif');
+}
+.image-span.x {
+	background-image: url('../assets/gif-font/pink-letters/x.gif');
+}
+.image-span.y {
+	background-image: url('../assets/gif-font/pink-letters/y.gif');
+}
+.image-span.z {
+	background-image: url('../assets/gif-font/pink-letters/z.gif');
+}
+.image-span.money {
+	background-image: url('../assets/gif-font/pink-letters/money.gif');
+}
+.image-span.question {
+	background-image: url('../assets/gif-font/pink-letters/question.gif');
+}
+.image-span.at {
+	background-image: url('../assets/gif-font/pink-letters/at.gif');
+}
+
+
+
+.image-span.none {
+	display: none;
+}
+.image-span-wrapper {
+	position: relative;
+}
+
+textarea {
+	width: 100%;
+	height: 50%;
+	font-size: 20px;
+	color: red;
+}
+
+/*					 */
+/* TEXT AREA WRAPPER */
+/*					 */
+
+.textarea-wrapper {
+	margin-top: 150px;
+	width: 100%;
+}
+
+.textarea {
+	color: red !important;
+}
+
+
+
+/*				 */
+/*  CSS ANIMATE  */
+/*				 */
+
+@-webkit-keyframes textanim {
+    from {top: 0; width: 0; height: 0; opacity: 0;}
+    to {top: -80px; width: 60px; height: 60px; opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes textanim {
+    from {top: 0; width: 0; height: 0; opacity: 0;}
+    to {top: -80px; width: 60px; height: 60px; opacity: 1;}
+}
