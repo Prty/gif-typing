@@ -2,6 +2,12 @@ body, html {
 	font-size: 20px !important;
 }
 
+h1.title {
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 300;
+	color: rgba(100, 100, 100, 0.5);
+}
+
 .image-span {
 	border: none;
 	background-repeat: no-repeat;
@@ -20,31 +26,31 @@ body, html {
 /*					*/
 
 .image-span.a {
-	background-image: url('../assets/gif-font/eiji/a.gif?rand=<?=rand(1,1000);?');
+	background-image: url('../assets/gif-font/eiji/a.gif');
 }
 .image-span.b {
-	background-image: url('../assets/gif-font/eiji/b.gif?rand=<?=rand(1,1000);?');
+	background-image: url('../assets/gif-font/eiji/b.gif');
 }
 .image-span.c {
-	background-image: url('../assets/gif-font/pink-letters/c.gif');
+	background-image: url('../assets/gif-font/eiji/c.gif');
 }
 .image-span.d {
 	background-image: url('../assets/gif-font/pink-letters/d.gif');
 }
 .image-span.e {
-	background-image: url('../assets/gif-font/pink-letters/e.gif');
+	background-image: url('../assets/gif-font/eiji/e.gif');
 }
 .image-span.f {
-	background-image: url('../assets/gif-font/pink-letters/f.gif');
+	background-image: url('../assets/gif-font/eiji/f.gif');
 }
 .image-span.g {
-	background-image: url('../assets/gif-font/pink-letters/g.gif');
+	background-image: url('../assets/gif-font/eiji/g.gif');
 }
 .image-span.h {
-	background-image: url('../assets/gif-font/pink-letters/h.gif');
+	background-image: url('../assets/gif-font/eiji/h.gif');
 }
 .image-span.i {
-	background-image: url('../assets/gif-font/pink-letters/i.gif');
+	background-image: url('../assets/gif-font/eiji/i.gif');
 }
 .image-span.j {
 	background-image: url('../assets/gif-font/pink-letters/j.gif');
@@ -74,7 +80,7 @@ body, html {
 	background-image: url('../assets/gif-font/pink-letters/r.gif');
 }
 .image-span.s {
-	background-image: url('../assets/gif-font/pink-letters/s.gif');
+	background-image: url('../assets/gif-font/eiji/s.gif');
 }
 .image-span.t {
 	background-image: url('../assets/gif-font/pink-letters/t.gif');
