@@ -15,8 +15,12 @@ h1.title {
 	background-size: 70px 70px;
 	left: 0;
 	display: block;
-	-webkit-animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;
-    animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;
+	top: -80px;
+	width: 60px; 
+	height: 60px; 
+	opacity: 1;
+	/*-webkit-animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;*/
+    /*animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;*/
 	box-sizing: border-box;
 }
 
@@ -148,13 +152,13 @@ textarea {
 /*  CSS ANIMATE  */
 /*				 */
 
-@-webkit-keyframes textanim {
+/*@-webkit-keyframes textanim {
     from {top: 0; width: 0; height: 0; opacity: 0;}
     to {top: -80px; width: 60px; height: 60px; opacity: 1;}
 }
 
-/* Standard syntax */
+ Standard syntax 
 @keyframes textanim {
     from {top: 0; width: 0; height: 0; opacity: 0;}
     to {top: -80px; width: 60px; height: 60px; opacity: 1;}
-}
+}*/
