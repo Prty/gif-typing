@@ -1,5 +1,5 @@
 .token-field {
-  font: 20px 'Helvetica', "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  font: 1.6em 'Roboto', 'Helvetica', "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
   /*border: 1px solid #bdc6d7;*/
   padding: 0 3px 3px 3px;
   cursor: text;
@@ -75,14 +75,16 @@
   margin-top: 3px;
 }
 .token-field .token-input input {
-  font: 20px 'Helvetica', "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  font: 1.6em 'Roboto', 'Helvetica', "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
   border: 0 none;
+  font-weight: 300;
   outline: 0 none;
   width: 100%;
 }
 .token-field .token-input-sizer {
-  font: 20px 'Helvetica', "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  font: 1.6em 'Roboto', 'Helvetica', "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
   left: 0;
+  font-weight: 300;
   position: relative;
   top: 0;
   display: block;
