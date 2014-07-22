@@ -1,9 +1,9 @@
 	
+$(document).ready(function() {
 
-
-// $('textarea').on("click", function(){
-// 	setInterval ('cursorAnimation()', 1200);
-// });
+$('textarea').on("click", function(){
+	setInterval ('cursorAnimation()', 1200);
+});
 
 	function cursorAnimation() {
     $('.cursor').animate({

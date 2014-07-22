@@ -40,7 +40,7 @@ h1.title {
 
 .pictype-area {
 	width: 100%;
-	height: 300px;
+	height: 100%;
 	margin: 0;
 	/*background-color: lime;*/
 }
@@ -87,8 +87,6 @@ textarea {
 	background: rgba(255, 255, 255, 0.4);
 	position: absolute;
 	top: 50;
-	/*opacity: 0;*/
-	/*background-color: orange; */
 	width: 87%;
 	height: 100%;
 	font-size: 20px;
@@ -97,8 +95,10 @@ textarea {
 	resize: none;
 	text-transform: uppercase;
 	font-size: 45px;
-	/*background-color: red;*/
+	background-color: orange;
 	opacity: 0;
+	z-index: 100;
+	letter-spacing: 40px;
 }
 
 
