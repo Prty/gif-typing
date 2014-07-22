@@ -62,16 +62,15 @@ h1.title {
 	/*height: 100px;*/
 }
 
+
 .cursor {
 	margin: 0;
 	padding: 0;
-	font-size: 50px;
-	color: #585858;
-	line-height: 1;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   	font-weight: 100;
-   	float: left;
-   	position: relative;
+	width: 2px;
+	height: 45px;
+	border-left: 1px solid black;
+	float: left;
+	padding-top: 12px;
 }
 
 
