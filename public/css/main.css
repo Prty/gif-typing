@@ -1,5 +1,7 @@
 body, html {
 	font-size: 20px;
+	margin: 0;
+	padding: 0;
 }
 
 h1.title {
@@ -12,6 +14,14 @@ h1.title {
 /* PICTYPE CHAR */
 /*				*/
 
+.pictype-area {
+	width: 100%;
+	height: 300px;
+	background: magenta;
+	margin: 0;
+	padding: 0;
+}
+
 .pictype-char {
 	display: flex;
 	justify-content: center;
@@ -21,16 +31,20 @@ h1.title {
 	opacity: 1;
 	float: left;
 	border: 1px solid black;
-	/*overflow: hidden;*/
-	/*background: yellow;*/
-	/*-webkit-animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;*/
-    /*animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;*/
 	box-sizing: border-box;
 }
 
 .pictype-char img {
 	width: 100px;
 	/*height: 100px;*/
+}
+
+.fake-typehead {
+	margin: 0;
+	padding: 0;
+	font-size: 3.2em;
+	color: green;
+	line-height: 1;
 }
 
 
