@@ -5,13 +5,13 @@
 	// });
 
 
-	function cursorAnimation() {
-    $('.cursor').animate({
-	        opacity: 0
-	    }, 'fast', 'swing').animate({
-	        opacity: 1
-	    }, 'fast', 'swing');
-	};
+	// function cursorAnimation() {
+ //    $('.cursor').animate({
+	//         opacity: 0
+	//     }, 'fast', 'swing').animate({
+	//         opacity: 1
+	//     }, 'fast', 'swing');
+	// };
 
 	var textArea = [],
 		textAreaLength = 0,
@@ -47,10 +47,6 @@
 	function isInArray(value, array) {
       return array.indexOf(value) > -1;
     }
-
-
-
-
 
 
 })();

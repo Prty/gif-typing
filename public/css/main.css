@@ -104,6 +104,28 @@ textarea {
 
 
 /*					*/
+/* ANIMATE CURSOR   */
+/*					*/
+
+
+.cursor {
+    -webkit-animation: blink 1s infinite ; /* Chrome, Safari, Opera */
+    animation: blink 1s infinite ; /* Standard syntax */
+}
+
+@keyframes blink {
+    from 	{opacity: 0;}
+    to 		{opacity: 1;}
+}
+
+@-webkit-keyframes blink { /* Safari and Chrome */ 
+    from 	{opacity: 0;}
+    to 		{opacity: 1;}
+}
+
+
+
+/*					*/
 /* ALPHABET LETTERS */
 /*					*/
 
