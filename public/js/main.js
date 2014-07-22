@@ -11,6 +11,7 @@
 		var lastChar = currentStringArray[currentStringArray.length - 1];
 		var badChar = ['`','1','2','3','4','5','6','7','8','9','0','-','=','[',']',';','.','/','!','@','#','$','%','^','&','*','(',')','_','+','{','}',':','"','<','>','?',"'"];
 		var inArray = isInArray(lastChar, badChar);
+	
 
 		
 		if (lastChar === ' ') {
@@ -35,6 +36,9 @@
 	function isInArray(value, array) {
       return array.indexOf(value) > -1;
     }
+
+    var length = $('.textarea').val.length;
+    console.log(length);
 
 })();
 
