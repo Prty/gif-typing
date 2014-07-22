@@ -13,14 +13,9 @@ h1.title {
 /*				*/
 
 .pictype-char {
+	display: flex;
+	justify-content: center;
 	position: relative;
-	border: none;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 70px 70px;
-	left: 0;
-	display: block;
-	top: -80px;
 	width: 60px; 
 	height: 60px; 
 	opacity: 1;
@@ -34,12 +29,8 @@ h1.title {
 }
 
 .pictype-char img {
-	width: 50px;
-	height: 50px;
-	margin: 0 auto;
-	left: 0;
-	right: 0;
-	position: absolute;
+	width: 100px;
+	/*height: 100px;*/
 }
 
 
