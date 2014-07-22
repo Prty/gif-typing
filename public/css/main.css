@@ -1,6 +1,5 @@
 body, html {
-	font-size: 20px !
-	portant;
+	font-size: 20px;
 }
 
 h1.title {
@@ -9,12 +8,12 @@ h1.title {
 	color: rgba(100, 100, 100, 0.5);
 }
 
-
 /*				*/
 /* PICTYPE CHAR */
 /*				*/
 
 .pictype-char {
+	position: relative;
 	border: none;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -26,6 +25,8 @@ h1.title {
 	height: 60px; 
 	opacity: 1;
 	float: left;
+	border: 1px solid black;
+	/*overflow: hidden;*/
 	/*background: yellow;*/
 	/*-webkit-animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;*/
     /*animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;*/
@@ -33,8 +34,12 @@ h1.title {
 }
 
 .pictype-char img {
-	width: 100%;
-	height: 100%;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	position: absolute;
 }
 
 
@@ -60,6 +65,7 @@ h1.title {
 .pictype-char.h {
 }
 .pictype-char.i {
+	width: 20px;
 }
 .pictype-char.j {
 	
