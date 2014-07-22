@@ -6,19 +6,30 @@ body, html {
 	position: relative;
 }
 
+header {
+	width: 360px;
+	height: 62px;
+	margin: 0 auto;
+	padding: 50 0;
 
-h1.title {
-	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-	font-weight: 300;
-	color: rgba(100, 100, 100, 0.5);
+}
+
+.logo {
+	width: 175px;
+	height: 62px;
+	float: left;
 }
 
 .title {
+	width: 165px;
+	height: 62px;
 	margin: 0 auto;
-	width: 200px;
-	height: 60px;
-	text-align: center;
-	padding: 30 0 30 0;
+	text-align: left;
+	margin-left: 20px;
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 300;
+	color: rgba(100, 100, 100, 0.5);
+	float: right;
 
 }
 
