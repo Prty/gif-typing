@@ -1,5 +1,6 @@
 body, html {
-	font-size: 20px !important;
+	font-size: 20px !
+	portant;
 }
 
 h1.title {
@@ -8,7 +9,12 @@ h1.title {
 	color: rgba(100, 100, 100, 0.5);
 }
 
-.image-span {
+
+/*				*/
+/* PICTYPE CHAR */
+/*				*/
+
+.pictype-char {
 	border: none;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -19,9 +25,16 @@ h1.title {
 	width: 60px; 
 	height: 60px; 
 	opacity: 1;
+	float: left;
+	/*background: yellow;*/
 	/*-webkit-animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;*/
     /*animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;*/
 	box-sizing: border-box;
+}
+
+.pictype-char img {
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -29,101 +42,72 @@ h1.title {
 /* ALPHABET LETTERS */
 /*					*/
 
-.image-span.a {
-	background-image: url('../assets/gif-font/eiji/a.gif');
+.pictype-char.a {
 }
-.image-span.b {
-	background-image: url('../assets/gif-font/eiji/b.gif');
+.pictype-char.b {
 }
-.image-span.c {
-	background-image: url('../assets/gif-font/eiji/c.gif');
+.pictype-char.c {
 }
-.image-span.d {
-	background-image: url('../assets/gif-font/pink-letters/d.gif');
+.pictype-char.d {
+	
 }
-.image-span.e {
-	background-image: url('../assets/gif-font/eiji/e.gif');
+.pictype-char.e {
 }
-.image-span.f {
-	background-image: url('../assets/gif-font/eiji/f.gif');
+.pictype-char.f {
 }
-.image-span.g {
-	background-image: url('../assets/gif-font/eiji/g.gif');
+.pictype-char.g {
 }
-.image-span.h {
-	background-image: url('../assets/gif-font/eiji/h.gif');
+.pictype-char.h {
 }
-.image-span.i {
-	background-image: url('../assets/gif-font/eiji/I.gif');
+.pictype-char.i {
 }
-.image-span.j {
-	background-image: url('../assets/gif-font/pink-letters/j.gif');
+.pictype-char.j {
+	
 }
-.image-span.k {
-	background-image: url('../assets/gif-font/pink-letters/k.gif');
+.pictype-char.k {
+	
 }
-.image-span.l {
-	background-image: url('../assets/gif-font/pink-letters/l.gif');
+.pictype-char.l {
+	
 }
-.image-span.m {
-	background-image: url('../assets/gif-font/pink-letters/m.gif');
+.pictype-char.m {
+	
 }
-.image-span.n {
-	background-image: url('../assets/gif-font/pink-letters/n.gif');
+.pictype-char.n {
+	
 }
-.image-span.o {
-	background-image: url('../assets/gif-font/pink-letters/o.gif');
+.pictype-char.o {
+	
 }
-.image-span.p {
-	background-image: url('../assets/gif-font/pink-letters/p.gif');
+.pictype-char.p {
+	
 }
-.image-span.q {
-	background-image: url('../assets/gif-font/pink-letters/q.gif');
+.pictype-char.q {
+	
 }
-.image-span.r {
-	background-image: url('../assets/gif-font/pink-letters/r.gif');
+.pictype-char.r {
+	
 }
-.image-span.s {
-	background-image: url('../assets/gif-font/eiji/s.gif');
+.pictype-char.s {
 }
-.image-span.t {
-	background-image: url('../assets/gif-font/pink-letters/t.gif');
+.pictype-char.t {
+	
 }
-.image-span.u {
-	background-image: url('../assets/gif-font/pink-letters/u.gif');
+.pictype-char.u {
+	
 }
-.image-span.v {
-	background-image: url('../assets/gif-font/pink-letters/v.gif');
+.pictype-char.v {
+	
 }
-.image-span.w {
-	background-image: url('../assets/gif-font/pink-letters/w.gif');
+.pictype-char.w {
+	
 }
-.image-span.x {
-	background-image: url('../assets/gif-font/pink-letters/x.gif');
+.pictype-char.x {
+	
 }
-.image-span.y {
-	background-image: url('../assets/gif-font/eiji/Y.gif');
+.pictype-char.y {
 }
-.image-span.z {
-	background-image: url('../assets/gif-font/pink-letters/z.gif');
-}
-.image-span.money {
-	background-image: url('../assets/gif-font/pink-letters/money.gif');
-}
-.image-span.question {
-	background-image: url('../assets/gif-font/pink-letters/question.gif');
-}
-.image-span.at {
-	background-image: url('../assets/gif-font/pink-letters/at.gif');
-}
-
-
-
-.image-span.none {
-	display: none;
-}
-.image-span-wrapper {
-	position: relative;
+.pictype-char.z {
 }
 
 textarea {
