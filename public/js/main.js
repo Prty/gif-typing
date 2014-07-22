@@ -36,7 +36,6 @@
       return array.indexOf(value) > -1;
     }
 
-
 })();
 
 
