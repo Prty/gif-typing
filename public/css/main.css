@@ -54,21 +54,29 @@ h1.title {
 
 .pictype-char.a {
 }
+
 .pictype-char.b {
 }
+
 .pictype-char.c {
 }
+
 .pictype-char.d {
 	
 }
+
 .pictype-char.e {
 }
+
 .pictype-char.f {
 }
+
 .pictype-char.g {
 }
+
 .pictype-char.h {
 }
+
 .pictype-char.i {
 	width: 20px;
 }
@@ -101,6 +109,7 @@ h1.title {
 }
 .pictype-char.s {
 }
+
 .pictype-char.t {
 	
 }
@@ -123,7 +132,7 @@ h1.title {
 }
 
 textarea {
-	width: 100%;
+	width: 80%;
 	height: 50%;
 	font-size: 20px;
 	color: red;
@@ -133,28 +142,15 @@ textarea {
 /* TEXT AREA WRAPPER */
 /*					 */
 
-.textarea-wrapper {
-	margin-top: 150px;
-	width: 100%;
-}
 
 .textarea {
-	color: red !important;
+	background: rgba(255, 255, 255, 0.4);
+	width: 80%;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	opacity: 0;
 }
 
 
 
-/*				 */
-/*  CSS ANIMATE  */
-/*				 */
-
-/*@-webkit-keyframes textanim {
-    from {top: 0; width: 0; height: 0; opacity: 0;}
-    to {top: -80px; width: 60px; height: 60px; opacity: 1;}
-}
-
- Standard syntax 
-@keyframes textanim {
-    from {top: 0; width: 0; height: 0; opacity: 0;}
-    to {top: -80px; width: 60px; height: 60px; opacity: 1;}
-}*/

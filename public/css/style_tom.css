@@ -1,5 +1,7 @@
 .wrapper {
 	background-color: #f3f3f3;
+	position: relative;
+	background: lime;
 }
 
 .title {
@@ -10,6 +12,7 @@
 }
 
 .paper {
+	position: relative;
 	padding: 0 50 0 50;
 	background-color: white;
 	width: 645px;
