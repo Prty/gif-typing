@@ -1,9 +1,9 @@
 	
 
 
-$('textarea').on("click", function(){
-	setInterval ('cursorAnimation()', 1200);
-});
+// $('textarea').on("click", function(){
+// 	setInterval ('cursorAnimation()', 1200);
+// });
 
 	function cursorAnimation() {
     $('.cursor').animate({
@@ -18,7 +18,7 @@ $('textarea').on("click", function(){
 
 	var textArea = [],
 		textAreaLength = 0,
-		pictypeArea = $('.pictype-area');
+		pictypeArea = $('.pictype-chararea');
 
 	$('.textarea').on('input',function(e) {
 		var currentString = $(this).val();
@@ -41,11 +41,6 @@ $('textarea').on("click", function(){
 		}
 	});
 })();
-
-
-
-
-
 	
 
 

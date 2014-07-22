@@ -42,6 +42,7 @@ h1.title {
 	width: 100%;
 	height: 300px;
 	margin: 0;
+	/*background-color: lime;*/
 }
 
 .pictype-char {
@@ -69,6 +70,8 @@ h1.title {
 	line-height: 1;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    	font-weight: 100;
+   	float: left;
+   	position: relative;
 }
 
 
@@ -84,16 +87,18 @@ textarea {
 	background: rgba(255, 255, 255, 0.4);
 	position: absolute;
 	top: 50;
-	opacity: 0;
-	background-color: orange; 
+	/*opacity: 0;*/
+	/*background-color: orange; */
 	width: 87%;
 	height: 100%;
 	font-size: 20px;
-	color: red;
+	color: white;
 	border: none; 
 	resize: none;
 	text-transform: uppercase;
 	font-size: 45px;
+	/*background-color: red;*/
+	opacity: 0;
 }
 
 
