@@ -1,20 +1,17 @@
-	
-$(document).ready(function() {
+(function () {
 
-$('textarea').on("click", function(){
-	setInterval ('cursorAnimation()', 1200);
-});
+	// $('textarea').on("click", function(){
+	// 	setInterval ('cursorAnimation()', 1200);
+	// });
+
 
 	function cursorAnimation() {
     $('.cursor').animate({
-        opacity: 0
-    }, 'fast', 'swing').animate({
-        opacity: 1
-    }, 'fast', 'swing');
-};
-
-
-(function () {
+	        opacity: 0
+	    }, 'fast', 'swing').animate({
+	        opacity: 1
+	    }, 'fast', 'swing');
+	};
 
 	var textArea = [],
 		textAreaLength = 0,
@@ -24,9 +21,14 @@ $('textarea').on("click", function(){
 		var currentString = $(this).val();
 		var currentStringArray = $(this).val().split('');
 		var lastChar = currentStringArray[currentStringArray.length - 1];
+		var badChar = ['[' ];
+		var inArray = isInArray(lastChar, badChar);
 
+		
 		if (lastChar === ' ') {
 			var elementToAppend = '<div class="pictype-char ' + lastChar + '"></div>';
+		} else if (inArray) {
+			var elementToAppend ='';
 		} else {
 			var elementToAppend = '<div class="pictype-char ' + lastChar + '"><img src="assets/gif-font/eiji/' + lastChar + '.gif?id=' + Math.random() + '"/></div>';
 		}
@@ -40,9 +42,18 @@ $('textarea').on("click", function(){
 			textAreaLength = currentStringArray.length;
 		}
 	});
-})();
-	
 
+
+	function isInArray(value, array) {
+      return array.indexOf(value) > -1;
+    }
+
+
+
+
+
+
+})();
 
 
 
