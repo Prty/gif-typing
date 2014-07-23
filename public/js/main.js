@@ -40,8 +40,8 @@
       return array.indexOf(value) > -1;
     }
 
-    // var length = $('.textarea').val.length;
-    // console.log(length);
+    var length = $('.textarea').val.length;
+    console.log(length);
 
 })();
 
