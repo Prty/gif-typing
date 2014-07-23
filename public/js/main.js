@@ -40,8 +40,29 @@
       return array.indexOf(value) > -1;
     }
 
-    var length = $('.textarea').val.length;
-    console.log(length);
+   
+   // COUNT LENGTH OF INPUT
+    $('textarea').keydown(function(){
+    	var length = $('textarea').val().length;
+    	console.log(length);
+    });
+
+
+    
+
+
+
+  //   $('#field').keyup(function () {
+		//   var max = 500;
+		//   var len = $(this).val().length;
+		//   if (len >= max) {
+		//     $('#charNum').text(' you have reached the limit');
+		//   } else {
+		//     var char = max - len;
+		//     $('#charNum').text(char + ' characters left');
+		//   }
+		// });
+
 
 })();
 
