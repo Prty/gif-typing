@@ -18,6 +18,7 @@
 		} else if (inArray) {
 			var elementToAppend ='';
 		} else {
+			console.log(lastChar)
 			var elementToAppend = '<div class="pictype-char ' + lastChar + '"><img src="assets/gif-font/eiji/' + lastChar + '.gif?id=' + Math.random() + '"/></div>';
 		}
 		
