@@ -1,4 +1,7 @@
 (function () {
+	$(document).on('click', function () {
+		$('.textarea').focus();
+	});
 
 	var textArea = [],
 		textAreaLength = 0,
